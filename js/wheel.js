@@ -32,7 +32,7 @@ modalWin.addEventListener("click", (event) => {
  "isSubscribed": "true"\r
  } ] }\r
 }`;
-        console.log(raw);
+        // console.log(raw);
 
         let requestOptions = {
             method: 'POST',
@@ -157,3 +157,4 @@ setInterval(() => {
         wheelPreview.style.transform = "rotate(0deg)";
     }, 5000);
 }, 30000);
+

@@ -359,15 +359,6 @@ $mode = file_get_contents('mode.txt');
             </span>
         </div>
 
-        <button
-            type="submit"
-            class="layout-1-form__btn btn-big"
-            id="submit-button"
-            data-js="submitBtn"
-        >
-            Узнать стоимость
-        </button>
-
         <div class="layout-1-form__policy">
             <input
                 type="checkbox"
@@ -413,6 +404,14 @@ $mode = file_get_contents('mode.txt');
                         .
                     </span>
         </div>
+        <button
+            type="submit"
+            class="layout-1-form__btn btn-big"
+            id="submit-button"
+            data-js="submitBtn"
+        >
+            Узнать стоимость
+        </button>
 
         <span class="layout-1-form__hint">
             Это быстро и бесплатно
